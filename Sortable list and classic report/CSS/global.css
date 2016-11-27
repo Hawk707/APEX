@@ -1,0 +1,48 @@
+.appTodo a.chkItem {
+    float: right;
+    right: 10px;
+    top: 7px;
+}
+
+.fa-2 {
+    font-size: 2em;
+}
+
+.appTodo .element a {
+    color: #343434;
+}
+
+.appTodo .element {
+    height: 2.5em;
+    width: 25em;
+    position: relative;
+	transition: all .1s ease-out;
+	border-bottom: 1px solid #eee;
+}
+
+.appTodo .element:hover {
+-webkit-transform: translateY(-2px);
+-ms-transform: translateY(-2px);
+transform: translateY(-2px);
+box-shadow: 0 8px 4px -4px rgba(0,0,0,.05);
+}
+
+ul.appTodo {
+    list-style-type: none;
+}
+
+.appTodo a.delete_chk{
+	top: 12px;
+	left: 8px;
+	color: #d4d4d4;
+}
+
+.appTodo a.delete_chk:hover{
+	color: #eb4747;
+}
+
+.appTodo a.delete_chk:hover i.fa-trash{
+	transform: scale(1.5);
+}
+
+
